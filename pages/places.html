@@ -2,67 +2,71 @@
 <html>
 <head>
 <title>Tourist Places</title>
-<link rel="stylesheet" href="./../css/style.css">
+<link rel="stylesheet" href="./style.css">
+<style>
+/* Mobile Devices */
+      @media screen and (min-width: 600px) and (max-width: 768px) {
+        .places {
+          background-color: rgb(145, 239, 208);
+        }
+      }
+
+      /* Tablet Devices */
+      @media screen and (min-width: 769px) and (max-width: 992px) {
+        .main-heading{
+          background-color: blue;
+
+        }
+      }
+
+      /* Desktop Devices */
+      @media screen and (min-width: 993px) and (max-width: 1200px) {
+        .main-heading{
+          background-color: rgb(176, 234, 119);
+          font-size: 60px;
+        }
+      }
+    </style>
 </head>
 <body>
-<div>
-<h1>Famous Places in Ahilyanagar</h1>
+     <div class="main-heading">
+          <h1> Ahilyanagar Tourist Places</h1>
+<a href="./../index.html" class="main">Home</a>
+<a href="./about.html" class="main">About</a>
+<a href="./places.html" class="main">Places</a>
+     </div>
+<h1 style="color:rgb(108, 108, 192); padding: 20px;
+font-family: 'Courier New', Courier, monospace;
+">Famous Places in Ahilyanagar</h1>
 </div>
-
-<nav>
-<a href="./../index.html">Home</a>
-<a href="./about.html">About</a>
-<a href="./places.html">Places</a>
-</nav>
-
 <div class="places">
-
-<div class="card">
-<img src="./../images/shani-imges.jpg" width="200">
-<h3>Shani Shingnapur</h3>
-<p>Famous temple of Lord Shani located near Ahilyanagar.</p>
+<div >
+<img src="./../images/ahilyanagarfort.jpeg" width="500px"
+height="300px" alt="Ahmednagar Fort/> 
+<h3 style="color: blue;"">Ahmednagar Fort</h3>
+</div>
+<div >
+<img src="./../images/Meherabad-Ahmednagar.jpg" width="500px" alt="Meherabad"/>
+<h3 style="color:blue;">Meherabad</h3>
+</div>
+<div >
+<img src="./../images/Damadi_Masjid.jpg" width="500px" alt="Damadi Masjid"/>
+<h3 style="color: blue;">Damadi Masjid</h3>
+</div>
+<div >
+<img src="./../images/bibi-image.jpg" width="500px" height="450px" alt="Chand Bibi Mahal"/>
+<h3 style="color:blue;">Chand Bibi Mahal</h3>
+</div>
+<div>
+<img src="./../images/baghrauza.jpeg" width="500px" "
+alt="baghrauzaimg"/>
+<h3 style="color: blue;">Bagha Rauza</h3>
+</div>
+<div>
+<img src="./../images/tank.jpeg" width="500px"
+alt="tankimg">
+<h3 style="color: blue; >Cavalry Tank Museum</h3>
 </div>
 </div>
-
-<div class="card">
-<img src="./../images/ahilyanagarfort.jpeg" width="200">
-<h3>Ahmednagar Fort</h3>
-<p>A historic fort built in the 15th century.</p>
-</div>
-
-<div class="card">
-<img src="./../images/Meherabad-Ahmednagar.jpg" width="200">
-<h3>Meherabad</h3>
-<p>Spiritual place and samadhi of Meher Baba.</p>
-</div>
-
-<div class="card">
-<img src="./../images/Damadi_Masjid.jpg" width="200">
-<h3>Damadi Masjid</h3>
-<p>Damdi Masjid is a historic mosque in Ahilyanagar built in the 16th century. 
-It is famous for its beautiful stone architecture and historical importance.</p>
-</div>
-
-<div class="card">
-<img src="./../images/bibi-image.jpg" width="200">
-<h3>Chand Bibi Mahal</h3>
-<p>Chand Bibi Mahal is a historic palace in Ahilyanagar.
-     It is named after the brave queen Chand Bibi and is known for its historical importance.</p>
-</div>
-<div class="card">
-<img src="./../images/baghrauza.jpeg" width="200">
-<h3>Bagha Rauza</h3>
-<p>Bagha Rauza is a historic tomb complex located in Ahilyanagar. 
-     It is known for its beautiful Islamic architecture and peaceful surroundings.</p>
-</div>
-
-<div class="card">
-<img src="./../images/tank.jpeg" width="200">
-<h3>Cavalry Tank Museum</h3>
-<p>The Cavalry Tank Museum in Ahilyanagar displays many historic tanks and
-      military vehicles used by the Indian Army. It is one of the few tank museums in Asia.</p>
-</div>
-
-
 </body>
 </html>

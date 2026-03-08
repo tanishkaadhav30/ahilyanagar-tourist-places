@@ -2,11 +2,46 @@
 <html>
 <head>
     <title>Home page </title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./pages/style.css">
+    <style>
+     /
+    * Mobile Devices */
+      @media screen and (min-width: 600px) and (max-width: 768px) {
+        .main-heading {
+          background-color: aquamarine;
+          align-items: center;
+        }
+      }
+      .photo1{
+        width: 100px;
+      }
+
+      /* Tablet Devices */
+      @media screen and (min-width: 769px) and (max-width: 992px) {
+        .main {
+            flex-direction: column;
+            text-align: center;
+          background-color: blue;
+        }
+      }
+       .photo1{
+        width: 300px;
+      }
+
+      /* Desktop Devices */
+      @media screen and (min-width: 993px) and (max-width: 1200px) {
+        .main-heading{
+          background-color: rgb(171, 223, 119);
+        }
+      }
+       .photo1{
+        width: 400px;
+      }
+    </style>
 </head>
 <body>
-    <div class="websiteheader">
-<h1> Ahilyanagar Tourist Places</h1>
+    <div class="main-heading">
+        <h1> Ahilyanagar Tourist Places </h1>
     <a href="./index.html" class="main"> Home </a>
     <a href="./pages/places.html" class="main"> Places</a>
     <a href="./pages/about.html" class="main"> About </a>
@@ -19,7 +54,7 @@ tourist places, temples and forts. This website shows some famous
 places you can visit in Ahilyanagar.
 </p>
 
-<img src="./images/bhisbag-mahal-image.jpg" width="450px">
+<img src="./images/bhisbag-mahal-image.jpg" width="450px" class="photo1">
 </section>
 
 </body>
