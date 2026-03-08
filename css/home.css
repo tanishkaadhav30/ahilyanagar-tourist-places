@@ -1,4 +1,13 @@
-body {
-    background-color: aliceblue;
-    color: brown;
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
 }
+.website-name{
+    font-weight: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+.main-logo
